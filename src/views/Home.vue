@@ -1,6 +1,7 @@
 <template web>
   <div class="w-page">
     <div class="w-container">
+      <h1>{{ navbarTitle }}</h1>
       <img src="~/assets/logo.png" alt="logo" />
       <HelloWorld :msg="msg" />
     </div>
@@ -30,7 +31,7 @@ export default {
   },
   data() {
     return {
-      navbarTitle: `Citizen Access`,
+      navbarTitle: `Citizen Access - Web and Mobile!`,
       msg: `Mode=${VUE_APP_MODE} and Platform=${VUE_APP_PLATFORM}`
     }
   }

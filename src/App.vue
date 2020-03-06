@@ -1,23 +1,22 @@
-<template native>
-  <RadSideDrawer ref="drawer" drawerLocation="Left" gesturesEnabled="true">
-    <StackLayout ~drawerContent backgroundColor="#ffffff">
-      <slot name="drawerContent"></slot>
-    </StackLayout>
-    <Frame ~mainContent ref="drawerMainContent">
-      <slot name="mainContent"></slot>
-    </Frame>
-  </RadSideDrawer>
-</template>
-
 <template web>
   <div id="app">
-    <h1>{{ navbarTitle }}</h1>
     <div id="nav">
       <router-link to="/">Home</router-link> |
       <router-link to="/about">About</router-link>
     </div>
     <router-view />
   </div>
+</template>
+
+<template native>
+  <RadSideDrawer ref="drawer" drawerLocation="Left" gesturesEnabled="true">
+    <StackLayout ~drawerContent backgroundColor="#eeffee">
+      <slot name="drawerContent"></slot>
+    </StackLayout>
+    <Frame ~mainContent ref="drawerMainContent">
+      <slot name="mainContent"></slot>
+    </Frame>
+  </RadSideDrawer>
 </template>
 
 <script>

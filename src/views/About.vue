@@ -25,7 +25,7 @@
 export default {
   data() {
     return {
-      navbarTitle: `Citizen Access`,
+      navbarTitle: `Citizen Access - About`,
       text: `This is a prototype Citizen Access mobile+web app.`
     }
   }
