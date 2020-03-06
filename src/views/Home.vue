@@ -6,6 +6,7 @@
     </div>
   </div>
 </template>
+
 <template native>
   <Page>
     <ActionBar :title="navbarTitle" />
@@ -16,6 +17,7 @@
     </GridLayout>
   </Page>
 </template>
+
 <script>
 import HelloWorld from 'components/HelloWorld'
 
@@ -28,13 +30,13 @@ export default {
   },
   data() {
     return {
-      navbarTitle: `Home.vue`,
+      navbarTitle: `Citizen Access`,
       msg: `Mode=${VUE_APP_MODE} and Platform=${VUE_APP_PLATFORM}`
     }
   }
 }
 </script>
-<!-- Add "scoped" attribute to limit CSS to this component only -->
+
 <style scoped>
 @import '~styles/style-one';
 @import '~styles/style-two';

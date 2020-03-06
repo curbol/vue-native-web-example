@@ -11,7 +11,6 @@
     <ActionBar :title="navbarTitle" />
     <GridLayout>
       <Label
-        fontSize="20"
         class="about-text"
         :text="text"
         textWrap="true"
