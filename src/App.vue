@@ -1,6 +1,8 @@
 <template web>
   <div class="w-page">
     <div class="w-container">
+      <router-link to="/">Home</router-link> |
+      <router-link to="/about">About</router-link>
       <h1>{{ navbarTitle }}</h1>
       <img src="~/assets/logo.png" alt="logo" height="20%" width="20%" />
       <HelloWorld :msg="msg" />
