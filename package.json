@@ -46,7 +46,7 @@
     "nativescript-dev-webpack": "^1.5.1",
     "nativescript-vue-template-compiler": "^2.5.0-alpha.3",
     "nativescript-worker-loader": "~0.9.5",
-    "node-sass": "^4.13.1",
+    "node-sass": "^7.0.0",
     "rimraf": "^3.0.2",
     "string-replace-loader": "^2.2.0",
     "vue-cli-plugin-nativescript-vue": "^0.3.1",
